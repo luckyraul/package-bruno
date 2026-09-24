@@ -6,4 +6,4 @@ if [ -f equal ]; then
 fi
 
 RELEASE=$(echo bruno_*.deb)
-deployer upload --distro all public_apt "$RELEASE"
+deployer upload public_apt "$RELEASE"
